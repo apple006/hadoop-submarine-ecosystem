@@ -93,7 +93,7 @@ Run the `submarine-installer/install.sh` command to start. The deployment progra
 
 **submarine-installer**  Menu description：
 
-![alt text](./images/submarine-installer.gif "Submarine Installer")
+![alt text](./assets/submarine-installer.gif "Submarine Installer")
 
 ## Deployment instructions
 

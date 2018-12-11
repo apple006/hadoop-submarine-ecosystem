@@ -1,8 +1,14 @@
 # hadoop-submarine-ecosystem
 
-Hadoop {Submarine} is the latest machine learning framework subproject in the Hadoop 3.2 release. It allows Hadoop to support `Tensorflow`, `MXNet`,` Caffe`, `Spark`, etc. A variety of deep learning frameworks provide a full-featured system framework for machine learning algorithm development, distributed model training, model management, and model publishing, combined with hadoop's intrinsic data storage and data processing capabilities to enable data scientists to Good mining and the value of the data.
+## Why need this repo?
 
-## Eco-system of Hadoop Submarine Project
+As discussed with several Apache Hadoop® committers, we plan to work outside of the Apache infrastructure to allow ecosystem features to be hardened and improved without creating risk for Apache projects. Once feature(s) of this repo becomes stable, we will merge it back to Apache projects follow normal Apache feature merge process.
+
+## Apache Hadoop Submarine Miscs
+
+Apache Hadoop {Submarine} is the latest machine learning framework subproject in the Apache Hadoop 3.2 release. It allows Hadoop to support `Tensorflow`, `MXNet`,` Caffe`, `Spark`, etc. A variety of deep learning frameworks provide a full-featured system framework for machine learning algorithm development, distributed model training, model management, and model publishing, combined with hadoop's intrinsic data storage and data processing capabilities to enable data scientists to Good mining and the value of the data.
+
+## Eco-system of Apache Hadoop Submarine Miscs Project
 
 ### submarine installer
 
@@ -18,4 +24,10 @@ A deep learning algorithm project requires data acquisition, data processing, da
 
 We have developed the zeppelin interpreter for Hadoop submarine. With the zeppelin submarine interpreter, you can directly develop, debug and visualize deep learning algorithms in zeppelin. We are submitting the zeppelin submarine interpreter to the zeppelin community for everyone. Hadoop submarine can be easily used.
 
-https://docs.google.com/document/d/16YN8Kjmxt1Ym3clx5pDnGNXGajUT36hzQxjaik1cP4A/edit#
+Design documentation: https://docs.google.com/document/d/16YN8Kjmxt1Ym3clx5pDnGNXGajUT36hzQxjaik1cP4A/edit#
+
+### Azkaban submarine job
+
+Azkaban is an easy-to-use workflow scheduling service that schedules the workflow of individual notes and individual paragraphs by azkaban scheduling the hadoop submarine note written in zeppelin.
+
+Design documentation: https://docs.google.com/document/d/1elWfqXFIiKV0nDDjO8WjiLbxG-mY64Wd7dQ0nP5cEYs/edit
